@@ -1,5 +1,7 @@
 
-function List({items, category}){
+import PropTypes from "prop-types";
+
+function List({items = [], category = "Category"}){
    
     // fruits.sort((a,b) => a.name.localeCompare(b.name)) // SALPHABETICAL ORDER
     //  fruits.sort((a,b ) => b.name.localeCompare(a.name))   // REVERSE ORDER
@@ -16,10 +18,17 @@ function List({items, category}){
     );
     return(
         <>
-            <h3>{category}</h3>
-            <ol>{listItems} </ol>
+            <h3 className="category">{category}</h3>
+            <ol className="items">{listItems} </ol>
         </>
     );
+}
+List.propTypes = {
+    category: PropTypes.string,
+    items: PropTypes.arrayOf(PropTypes.shape({
+        name: PropTypes.string,
+        calories: PropTypes.number
+    }))
 }
 
 export default List
