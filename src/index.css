@@ -1,4 +1,17 @@
 
+/* UserGreetings Stylesheet */
+.welcomeMsg,.loginPrompt{
+  font-size: 2rem;
+  background-color: rgb(55, 199, 55);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  max-width: 50%;
+  text-align: center;
+}
+.loginPrompt{
+  background-color: red;
+}
 /* Student Component Stylesheet */
 .student{
   font-family: Arial;

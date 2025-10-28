@@ -1,13 +1,17 @@
 
-import Student from "./Student"
+import List from "./List.jsx"
 function App(){
+
+     const fruits = [{name: "Apple", calories: 60}, 
+                    {name: "Orange", calories: 80}, 
+                    {name: "Banana", calories: 100}, 
+                    {name: "Watermelon", calories: 150}, 
+                    {name: "Avocado", calories: 200}]
+
+
     return(
-        <>
-            <Student name = "Samuel Kimathi" age = "23" isStudent = {false}/>
-            <Student name = "Alex Muchui" age = {20} isStudent = {true} />
-            <Student name = "Brenda Nkirote" age = {15} isStudent = {true} />
-        </>
-    );
+        <List items = {fruits} category = "Fruits" />
+    )
        
 }
 
