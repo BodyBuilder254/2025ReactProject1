@@ -1,4 +1,33 @@
 
+
+
+
+
+
+/* COUNTER STYLESHEET
+.container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.display{
+  font-size: 10rem;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.container button{
+  font-size: 30px;
+  color: white;
+  background-color: blue;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.container button:hover{
+  background-color: hsl(240, 100%, 60%);
+}
+
 .category{
   font-size: 2rem;
   font-weight: bold;
@@ -17,10 +46,10 @@
   color: black;
   text-align: left;
   max-width: 30%;
-}
+} */
 
 
-/* UserGreetings Stylesheet */
+/* UserGreetings Stylesheet
 .welcomeMsg,.loginPrompt{
   font-size: 2rem;
   background-color: rgb(55, 199, 55);
@@ -32,8 +61,9 @@
 }
 .loginPrompt{
   background-color: red;
-}
-/* Student Component Stylesheet */
+} */
+
+/* Student Component Stylesheet
 .student{
   font-family: Arial;
   font-size: 20px;
@@ -44,8 +74,9 @@
 }
 .student p{
   margin: 5px;
-}
-/* Card omponent Stylesheet */
+} */
+ 
+/* Card omponent Stylesheet
 .Card{
   border: 1px solid hsl(0, 0%, 50%);
   border-radius: 10px;
@@ -69,4 +100,4 @@
 .Card .text{
   font-family: Arial, sans-serif;
   color: hsl(0, 0%, 20%);
-}
+} */
