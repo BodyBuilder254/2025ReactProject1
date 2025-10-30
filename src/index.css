@@ -1,103 +1,47 @@
 
 
-
-
-
-
-/* COUNTER STYLESHEET
+/* 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  height: 100vh;
+}
 .container{
-  text-align: center;
-  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1{
+  font-size: 2rem;
 }
 .display{
-  font-size: 10rem;
-  margin-top: 0;
-  margin-bottom: 50px;
-}
-.container button{
-  font-size: 30px;
-  color: white;
-  background-color: blue;
-  margin: 5px;
-  padding: 10px;
-  cursor: pointer;
-  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  border: 3px solid grey;
   border-radius: 10px;
-}
-.container button:hover{
-  background-color: hsl(240, 100%, 60%);
-}
-
-.category{
-  font-size: 2rem;
-  font-weight: bold;
-  border: 3px solid black;
-  border-radius: 5px;
-  color: black;
-  background-color: rgb(0, 255, 179);
-  margin: 10px;
-  padding: 5px;
-  text-align: center;
-  max-width: 30%;
-}
-
-.items li{
-  font-size: 2rem;
-  color: black;
-  text-align: left;
-  max-width: 30%;
-} */
-
-
-/* UserGreetings Stylesheet
-.welcomeMsg,.loginPrompt{
-  font-size: 2rem;
-  background-color: rgb(55, 199, 55);
+  margin-bottom: 20px;
   color: white;
-  padding: 10px;
-  margin: 5px;
-  max-width: 50%;
+  transition: 0.25s ease;
+  margin-bottom: 20px;
+}
+.display p{
+  font-size: 2rem;
   text-align: center;
 }
-.loginPrompt{
-  background-color: red;
-} */
-
-/* Student Component Stylesheet
-.student{
-  font-family: Arial;
+.container label{
   font-size: 20px;
-  border: 2px solid hsl(0, 0%, 80%);
-  padding: 10px;
-  width: 350px;
-  margin: 20px auto;
-}
-.student p{
-  margin: 5px;
-} */
- 
-/* Card omponent Stylesheet
-.Card{
-  border: 1px solid hsl(0, 0%, 50%);
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  max-width: 250px;
-  display: inline-block;
-}
-.Card .image{
-  width: 80%;
-  height: auto;
-  border-radius: 15%;
   margin-bottom: 10px;
+  font-weight: bold;
 }
-.Card .title{
-  font-family: Arial, sans-serif;
-  margin: 0;
-  color: hsl(0, 0%, 10%);
-}
-.Card .text{
-  font-family: Arial, sans-serif;
-  color: hsl(0, 0%, 20%);
+.container input[type = "color"]{
+  width: 75px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 5px;
 } */
