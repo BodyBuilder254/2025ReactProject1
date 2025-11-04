@@ -1,9 +1,9 @@
 
-import Objects from "./Objects.jsx";
+import ComponentA from "./ComponentA.jsx";
 function App(){
 
     return(
-        <Objects />
+        <ComponentA/>
     );
 }
 export default App;
